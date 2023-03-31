@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background">
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/cerc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cerc" />
+
+            <TextView
+                android:id="@+id/txtcerc"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#f5bb1b"
+                style="@style/textviewFORME"
+                android:text="CERC" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/oval" />
+
+            <TextView
+                android:id="@+id/txtoval"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#f5bb1b"
+                style="@style/textviewFORME"
+                android:text="OVAL" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/patrat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/patrat" />
+
+            <TextView
+                android:id="@+id/txtpatrat"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#f5bb1b"
+                style="@style/textviewFORME"
+                android:text="PATRAT" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/dreptunghi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dreptunghi" />
+
+            <TextView
+                android:id="@+id/txtdreptunghi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#f5bb1b"
+                style="@style/textviewFORME"
+                android:text="DREPTUNGHI" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/triunghi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/triunghi" />
+
+            <TextView
+                android:id="@+id/txttriunghi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#f5bb1b"
+                style="@style/textviewFORME"
+                android:text="TRIUNGHI" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/romb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/romb" />
+
+            <TextView
+                android:id="@+id/txtromb"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#f5bb1b"
+                style="@style/textviewFORME"
+                android:text="ROMB" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/trapez"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trapez" />
+
+            <TextView
+                android:id="@+id/txttrapez"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#f5bb1b"
+                style="@style/textviewFORME"
+                android:text="TRAPEZ" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/pentagon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pentagon" />
+
+            <TextView
+                android:id="@+id/txtpentagon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#f5bb1b"
+                style="@style/textviewFORME"
+                android:text="PENTAGON" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/hexagon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hexagon" />
+
+            <TextView
+                android:id="@+id/txthexagon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#f5bb1b"
+                style="@style/textviewFORME"
+                android:text="HEXAGON" />
+        </TableRow>
+    </TableLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

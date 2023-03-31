@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JustMath</string>
+    <string name="creeat_de_stan_radu">Creeat de Stan Radu</string>
+    <string name="despre_noi">Despre noi</string>
+    <string name="jocuri">Jocuri</string>
+    <string name="setari">setari</string>
+    <string name="forme_geometrice">Forme geometrice</string>
+    <string name="caut_s_nve_i">Caută să înveți</string>
+    <string name="cum_folosim_banii">Cum folosim banii?</string>
+    <string name="creat">      Creat de Stan Radu și Diaconu Miruna   </string>
+    <string name="logo">logo</string>
+    <string name="inva_formele_geometrice">Invață formele geometrice</string>
+</resources>
